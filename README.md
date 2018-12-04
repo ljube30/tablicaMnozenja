@@ -10,8 +10,9 @@ Tako da projekat treba biti smješten u main web folder, a ne neki podfolder. Al
 
 Tabela je u generisana pomoću for petlje u PHP-u, i stil tabele je urađen da prestavlja tabelu sa slike u projektnom zadatku.
 
-U "calculator.class.php" nalazi se klasa Kalkulator sa metodom za izračunavanje proizvoda.
-A u "config.php" nalazi se kod za povezivanje sa mysql bazom podataka.
+U "calculator.class.php" nalazi se klasa Kalkulator sa metodom za izračunavanje proizvoda; a u "config.php" nalazi se kod za povezivanje sa mysql bazom podataka.
+
+U index.php pored tabele nalazi se i dio koda za dobijanje rezultata i smiještanje rezultata i faktora pri množenju u bazu podataka. Nisam bio u mogućnosti da uradim dio kada pomoću klika treba izdvojiti ćeliju iz tabele pa sam samo napravio promjenjive f1 i f2 i dodijelio im vrijednosti da bi mogao da nastavim sa zadatkom. datum i vrijeme sam odradio pomoću ugrađene funkcije date vodeći računa da bude u istom formatu u kakvom mora biti da bi se upisala u mySQL bazu kao tip datetime.
 
 
 
