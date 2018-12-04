@@ -15,7 +15,7 @@ U "calculator.class.php" nalazi se klasa Kalkulator sa metodom za izračunavanje
 
 U index.php pored tabele nalazi se i dio koda za pozivanje metode za računanje proizvoda i smiještanje rezultata i faktora pri množenju u bazu podataka. Datum i vrijeme sam odradio pomoću ugrađene funkcije date(); vodeći računa da bude u istom formatu u kakvom mora biti da bi se upisala u mySQL bazu kao tip datetime. 
 
-U "calculator.js" sam pokupio tekst iz kliknute ćelije tabele i odredio prvi i drugi broj pomocu substr i slice, nakon čega sam napravio kolačiće pomoću kojih sam prenio brojeve da ih mogu koristiti u PHP, na kraju sam pozvao  location.reload(); metodu da bi osigurao zapis svake kliknute ćelije u bazu podataka.
+U "calculator.js" sam pokupio tekst iz kliknute ćelije tabele i odredio prvi i drugi broj pomocu substr i slice, nakon čega sam napravio kolačiće da bih mogao brojeve koristiti u PHP, na kraju sam pozvao "location.reload();" metodu da bi osigurao zapis svake kliknute ćelije u bazu podataka.
 
 
 
