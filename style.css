@@ -1,0 +1,23 @@
+/* Postavlanje tipa okvira i poravnanja teksta u tabeli */
+.tabela {
+ border-collapse: collapse; 
+ text-align: center;
+}
+
+/* Postavlanje fonta, okvira i paddinga celija unutar tabele */
+.tabela, .celija, .celijaZaglavlje{
+    font-family: Arial;
+    border: 1px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Postavlanje boje pozadine celija u prvom redu i prvoj koloni tabele i podesavanje paddinga*/
+.celijaZaglavlje
+{    
+     background-color: lightgray;
+     padding-left: 17px;
+     padding-right: 17px;
+}
