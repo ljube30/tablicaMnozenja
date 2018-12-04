@@ -2,7 +2,8 @@
 
 Ljubiša Jereinić PROJEKTNI ZADATAK INFOMEDIA
 
-Baza je urađena u mySQL-u i exportovana u folder Baza
+Baza je urađena u mySQL-u i exportovana u folder Baza.
+
 Include fajlovi su: include($_SERVER['DOCUMENT_ROOT'].'/includes/config.php');
                     include($_SERVER['DOCUMENT_ROOT'].'/class/calculator.class.php');
 
